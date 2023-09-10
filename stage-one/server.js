@@ -19,8 +19,8 @@ app.get('/api', (req, res) => {
   const current_day = moment().format('dddd');
 
   // GitHub repository information
-  const github_file_url = 'https://github.com/username/repo/blob/main/file_name.ext'; 
-  const github_repo_url = 'https://github.com/username/repo'; 
+  const github_file_url = 'https://github.com/kelleman/HNGX-internship/blob/main/stage-one/server.js'; 
+  const github_repo_url = 'https://github.com/kelleman/HNGX-internship'; 
 
   // Response JSON object
   const response = {
